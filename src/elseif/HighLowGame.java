@@ -29,17 +29,17 @@ public class HighLowGame {
 				// 6. Win
 				// 12. Use "System.exit(0);" to quit the game if the user guessed the right answer.
 			// 7. if the guess is high
-			if(guess<random) {
+			if(guess>random) {
 				JOptionPane.showMessageDialog(null, "Thats too high");
 			}
 				// 8. Tell them it's too high
 			// 9. if the guess is low
-			if(guess>random) {
+			if(guess<random) {
 				JOptionPane.showMessageDialog(null, "That too low");
 			}
 				// 10. Tell them it's too low
 
-		// 13. Tell them they lose
+
 		
 	}
 

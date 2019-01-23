@@ -17,10 +17,11 @@ public class BirthdayReminder {
 
 		// 2. Find out which birthday the user wants and and store their response in a variable
 		String input = JOptionPane.showInputDialog("What birthday do you want?");
-		int i= Integer.parseInt(input);
 		
-		if(i= ){
+		
+		 if(input.equalsIgnoreCase("mom")) {
 			JOptionPane.showMessageDialog(null, momsBirthday);
+		 }
 		// 3. Print out what the user typed
 		
 	
@@ -30,10 +31,18 @@ public class BirthdayReminder {
 			System.out.println(momsBirthday);
 		// 5. if user asked for "dad"
 			// print dad's birthday
+			System.out.println(dadsBirthday);
+			if(input.equalsIgnoreCase("dads")) {
+				JOptionPane.showMessageDialog(null, dadsBirthday);
+			}
 		// 6. if user asked for your name
 			// print myBirthday
+			System.out.println(myBirthday);
+			if(input.equalsIgnoreCase("my")) {
+				JOptionPane.showMessageDialog(null, myBirthday);
+			}
 		//7. otherwise print "Sorry, i don't remember that person's birthday!"
-
+			
 	} 
 	}
-}
+
